@@ -1,0 +1,247 @@
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+input[type=text]{
+	border: 1px solid rgb(255,234,0);
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 2px 5px;
+	width: 40%;
+	margin-left: 5px;
+}
+.container{
+	padding: 10px 0;
+	background-image: linear-gradient(to bottom right, rgb(220,250,220), rgb(255,36,0));
+}
+.screen{
+	width: 280px; height: 425px;
+	background-color: rgba(255,255,255,0.6);
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+}
+.header{
+	background-color: rgb(255,36,0);
+	font-size: 19px;
+	color: rgb(255,234,0);
+	height: 29px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid rgb(255,234,0);
+}
+.wheel{
+	width: 150px;
+	height: 145px;
+	margin: auto;
+	padding-top: 7px;
+	border: 2px dashed rgb(255,234,0);
+}
+.red-o{
+	float: left;
+	background-color: rgb(250,30,30);
+	width: 59px;
+	height: 59px;
+	margin: 0 0 3px 7px;
+	border-radius:65px 2px 2px 2px;
+	border-top: 4px solid gold;
+	border-left: 4px solid gold;
+	border-right: 2px solid gold;
+	border-bottom: 2px solid gold;
+}
+.blue-o{
+	float: right;
+	background-color: rgb(22,22,255);
+	width: 59px;
+	height: 59px;
+	margin: 0 7px 3px 0;
+	border-radius: 2px 65px 2px 2px;
+	border-top: 4px solid gold;
+	border-right: 4px solid gold;
+	border-left: 2px solid gold;
+	border-bottom: 2px solid gold;
+}
+.yellow-o{
+	float: left;
+	background-color: rgb(243,243,0);
+	width: 59px;
+	height: 59px;
+	margin: 3px 0 0 7px;
+	border-radius: 2px 2px 2px 65px;
+	border-bottom: 4px solid gold;
+	border-left: 4px solid gold;
+	border-top: 2px solid gold;
+	border-right: 2px solid gold;
+}
+.purple-o{
+	float: right;
+	background-color: rgb(186,85,211);
+	width: 59px;
+	height: 59px;
+	margin: 3px 7px 0 0;
+	border-radius: 2px 2px 65px 2px;
+	border-bottom: 4px solid gold;
+	border-right: 4px solid gold;
+	border-top: 2px solid gold;
+	border-left: 2px solid gold;
+}
+.red-l{
+	float: left;
+	background-color: rgb(220,20,60);
+	width: 59px;
+	height: 59px;
+	margin: 0 0 3px 7px;
+	border-radius: 65px 2px 2px 2px;
+	display: none;
+	border: dotted 3px white;
+}
+.blue-l{
+	float: right;
+	background-color: rgb(0,0,205);
+	width: 59px;
+	height: 59px;
+	margin: 0 7px 3px 0;
+	border-radius: 2px 65px 2px 2px;
+	display: none;
+	border: dotted 3px white;
+}
+.yellow-l{
+	float: left;
+	background-color: rgb(255,215,0);
+	width: 59px;
+	height: 59px;
+	margin: 3px 0 0 7px;
+	border-radius: 2px 2px 2px 65px;
+	display: none;
+	border: dotted 3px white;
+}
+.purple-l{
+	float: right;
+	background-color: rgb(148,0,211);
+	width: 59px;
+	height: 59px;
+	margin: 3px 7px 0 0;
+	border-radius: 2px 2px 65px 2px;
+	display: none;
+	border: dotted 3px white;
+}
+.plc-btn{
+	height: 45px;
+}
+.btn-spin{
+	display: inline-block;
+	font-size: 18px;
+	color: rgb(255,234,0);
+	background-color: rgb(255,36,0);
+	border: solid 3px rgb(255,234,0);
+	padding: 4px 20px;
+	border-radius: 4px;
+	margin-top: 4px;
+}
+.btn-spin:active{
+	font-size: 16px;
+	margin-top: 6px;
+}
+.cho-theme{
+	float: left;
+	margin-top: 40px;
+	margin-left: 9px;
+	color: rgb(255,234,0);
+	width: 45px;
+}
+.thm-a{
+	font-size: 13px;
+	height: 18px;
+	color: rgb(255,234,0);
+	background-color: rgb(255,36,0);
+	border-radius: 3px 3px 0 0;
+}
+.thm-b{
+	padding-top: 4px;
+	background-color: white;
+	height: 30px;
+}
+.thm-c{
+	margin-top: 10px;
+	font-size: 14px;
+	height: 18px;
+	color: rgb(255,234,0);
+	background-color: rgb(255,36,0);
+	border-radius: 3px 3px 0 0;
+}
+.s-btn{
+	display: inline-block;
+	border-radius: 3px 3px 3px 3px;
+	background-color: rgb(255,36,0);
+	color: rgb(255,234,0);
+	border: 2px solid rgb(255,234,0);
+	font-size: 14px;
+	float: left;
+	margin-left: 12px;
+}
+.v-btn{
+	display: inline-block;
+	border-radius: 3px 3px 3px 3px;
+	background-color: rgb(127,0,255);
+	color: rgb(255,234,0);
+	border: 2px solid rgb(255,234,0);
+	font-size: 14px;
+	display: none;
+	float: left;
+	margin-left: 12px;
+}
+.s-btn:active{
+	font-size: 12px;
+	margin-top: 1px;
+}
+.v-btn:active{
+	font-size: 12px;
+	margin-top: 1px;
+}
+.plc-img{
+	height: 140px;
+	width: 150px;
+	border: 2px dashed rgb(255,234,0);
+	border-radius: 5px;
+	margin: auto;
+}
+.pokeimg{
+	height: 120px;
+	width: 120px;
+	margin: 10px 0 0 15px;
+}
+.rarity{
+	float: right;
+	margin-top: 40px;
+	margin-right: 9px;
+	width: 45px;
+}
+.rar-a{
+	background-color: rgb(255,36,0);
+	font-size: 13px;
+	height: 18px;
+	color: rgb(255,234,0);
+	border-radius: 3px 3px 0 0;
+}
+.rar-b{
+	background-color: white;
+	padding: 5px 0 10px 0;
+}
+.rar-c{
+	margin-top: 10px;
+	background-color: rgb(255,36,0);
+	font-size: 14px;
+	height: 18px;
+	color: rgb(255,234,0);
+	border-radius: 3px 3px 0 0;
+}
+.namePoke{
+	width: 150px;
+	background-color: white;
+	margin: auto;
+	margin-top: 6px;
+	height: 20px;
+	padding-top: 1px;
+	border-radius: 4px;
+	border: 2px solid rgb(255,234,0);
+}

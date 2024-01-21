@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SV Spin</title>
+	<link rel="stylesheet" type="text/css" href="assets/spins.css">
+	<script type="text/javascript" src="assets/spin.js"></script>
+</head>
+<body>
+<div class="container" id="chg-con">
+	<div class="screen">
+		<div class="header" id="chg-hea">
+			<label>Player</label>
+			<input type="text" name="">
+		</div>
+		<div class="wheel">
+			<div class="red-o" id="o-red"></div>
+			<div class="red-l" id="l-red"></div>
+			<div class="blue-o" id="o-blue"></div>
+			<div class="blue-l" id="l-blue"></div>
+			<div class="yellow-o" id="o-yellow"></div>
+			<div class="yellow-l" id="l-yellow"></div>
+			<div class="purple-o" id="o-purple"></div>
+			<div class="purple-l" id="l-purple"></div>
+		</div>
+		<div class="plc-btn"><button onclick="spin()" id="chg-spi" class="btn-spin">Spin!</button></div>
+		<div class="cho-theme">
+			<div class="thm-a" id="chg-thm">Theme</div>
+			<div class="thm-b">
+				<button class="s-btn" onclick="changeS()" id="chg-btn-s">S</button>
+				<button class="v-btn" onclick="changeV()" id="chg-btn-v">V</button>
+			</div>
+		</div>
+		<div class="rarity">
+			<div class="rar-a" id="chg-rar">Rarity</div>
+			<div class="rar-b" id="c-rar">??</div>
+		</div>
+		<div class="plc-img">
+			<div class="pokeimg">
+				<img src="gallery/Siluet.png" id="img1">
+			</div>
+		</div>
+		<div class="namePoke" id="namePk">???</div>
+	</div>
+</div>
+</body>
+</html>
